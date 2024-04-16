@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-16T14:32:39 IST" name="Suite" finished-at="2024-04-16T14:32:50 IST" duration-ms="10921">
+    <groups>
+    </groups>
+    <test started-at="2024-04-16T14:32:39 IST" name="Positive Test Cases " finished-at="2024-04-16T14:32:50 IST" duration-ms="10773">
+      <class name="com.VM.test.Forgot_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.VM.test.Forgot_Test@6d60fe40]" started-at="2024-04-16T14:32:41 IST" name="launchBrowser" finished-at="2024-04-16T14:32:46 IST" duration-ms="5269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Forgot_operation(java.lang.String,java.lang.String)[pri:5, instance:com.VM.test.Forgot_Test@6d60fe40]" started-at="2024-04-16T14:32:46 IST" name="Forgot_operation" data-provider="XLData" finished-at="2024-04-16T14:32:49 IST" duration-ms="3419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muruganandhsrini@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anandh1212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgot_operation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.VM.test.Forgot_Test@6d60fe40]" started-at="2024-04-16T14:32:49 IST" name="closeBrowser" finished-at="2024-04-16T14:32:50 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.VM.test.Forgot_Test -->
+    </test> <!-- Positive Test Cases  -->
+    <test started-at="2024-04-16T14:32:50 IST" name="Negative Test cases" finished-at="2024-04-16T14:32:50 IST" duration-ms="2">
+      <class name="com.VM.utils.Reports">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.VM.utils.Reports@59402b8f]" started-at="2024-04-16T14:32:38 IST" name="startReport" finished-at="2024-04-16T14:32:39 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.VM.utils.Reports@59402b8f]" started-at="2024-04-16T14:32:50 IST" name="endReport" finished-at="2024-04-16T14:32:51 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.VM.utils.Reports -->
+    </test> <!-- Negative Test cases -->
+  </suite> <!-- Suite -->
+</testng-results>

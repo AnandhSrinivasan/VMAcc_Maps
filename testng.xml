@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Positive Test Cases ">
+		<parameter name="browser" value="Chrome" />
+	<!--	<parameter name="browser" value="Edge"></parameter>
+-->		<classes>
+			<class name="com.VM.utils.Se_Wrappers" />
+			<class name="com.VM.utils.VM_Wrappers" />
+			<class name="com.VM.utils.Reports" />
+			<!--<class name="com.VM.test.SignUp_PiveTest" />
+			<class name="com.VM.test.Login_PiveTest"/>-->
+			<class name="com.VM.test.Forgot_Test"/>
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="Negative Test cases">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<!--<class name="com.VM.test.SignUp_NiveTest"></class>
+			<class name="com.VM.test.Login_NiveTest"></class>-->
+		</classes>
+	</test>
+</suite> <!-- Suite -->
